@@ -1,4 +1,4 @@
-# T01.6-Ejercicio simple sobre listas y tuplas
+# T01.6-Ejercicios simple sobre listas y tuplas
 
 ## Bloque 1 - Listas y tuplas 
 
