@@ -71,3 +71,17 @@ Pruebe la función en un módulo `test_funciones_personas.py`. Haz dos pruebas d
     >>>todos_superan_estatura([], 1.70)
     True
    ```  
+
+## Bloque 2 - Lectura de ficheros
+
+1. En el módulo `funciones_personas.py`implementa una función, que dada la ruta a un archivo con información de personas (su nombre, su estatura y su peso), devuelva una lista de tuplas con los datos leídos de las personas.
+
+2. En el módulo `funciones_personas.py` implementa una segunda versión de la función anterior usando `csv.reader`.
+
+## Bloque 3 - namedtuple
+
+1. Modifica el código de las funciones de los bloques 1 y 2 para usar la siguiente `namedtuple` (que debe añadir al módulo `funciones_personas.py`).
+
+```python
+Persona = namedtuple ("Persona", "nombre, peso, estatura")
+```
